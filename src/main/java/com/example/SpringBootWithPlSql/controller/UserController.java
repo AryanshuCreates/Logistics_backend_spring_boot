@@ -45,6 +45,7 @@ public class UserController {
             existingLoad.setNoOfTrucks(updatedLoad.getNoOfTrucks());
             existingLoad.setWeight(updatedLoad.getWeight());
             existingLoad.setComment(updatedLoad.getComment());
+            existingLoad.setShipperId(updatedLoad.getShipperId());
             existingLoad.setDate(updatedLoad.getDate());
 
             userRepo.save(existingLoad);
