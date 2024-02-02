@@ -24,7 +24,7 @@ public class User {
     private int noOfTrucks;
     private double weight;
     private String comment;
-
+    private String shipperId;
     private LocalDateTime Date;
 
 }
