@@ -6,18 +6,16 @@ Overview
 Simple Spring Boot API for managing logistics information
 Provides endpoints to add, retrieve, update, and delete logistics details
 Getting Started
-Clone the repository:
 
-git clone https://github.com/yourusername/spring-boot-logistics-api.git
-cd spring-boot-logistics-api
-Configure Database:
+>Clone the repository
+
+>Configure Database:
 
 Open application.properties and configure your PostgreSQL database settings.
 Run the Application:
 
-./mvnw spring-boot:run
-Application accessible at http://localhost:8080
-API Endpoints
+>API Endpoints
+
 1. Insert Logistics Details
 Endpoint: POST /load/save
 Payload: JSON payload with logistics details
